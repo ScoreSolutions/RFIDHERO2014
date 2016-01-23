@@ -1,0 +1,76 @@
+C:\Users\TonG\AppData\Local\Temporary Projects\kioskRFID\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\TonG\AppData\Local\Temporary Projects\kioskRFID\obj\Debug\kioskRFID.frmKiosCapture.resources
+C:\Users\TonG\AppData\Local\Temporary Projects\kioskRFID\obj\Debug\kioskRFID.frmRegister.resources
+C:\Users\TonG\AppData\Local\Temporary Projects\kioskRFID\obj\Debug\kioskRFID.Resources.resources
+C:\Users\TonG\AppData\Local\Temporary Projects\kioskRFID\obj\Debug\kioskRFID.vbproj.GenerateResource.Cache
+D:\_A\kioskRFID\kioskRFID\bin\Debug\kioskRFID.exe
+D:\_A\kioskRFID\kioskRFID\bin\Debug\kioskRFID.pdb
+D:\_A\kioskRFID\kioskRFID\bin\Debug\kioskRFID.xml
+D:\_A\kioskRFID\kioskRFID\obj\Debug\ResolveAssemblyReference.cache
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmDialogMsg.resources
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmRegister.resources
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.Resources.resources
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.vbproj.GenerateResource.Cache
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.exe
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.xml
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.pdb
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmKiosCapture.resources
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmLoading.resources
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmKiosCapture2.resources
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmFbLogin.resources
+D:\_A\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmWaiting.resources
+D:\_A\kioskRFID\kioskRFID\bin\Debug\Facebook.dll
+D:\_A\kioskRFID\kioskRFID\bin\Debug\kioskRFID.exe.config
+D:\_A\kioskRFID\kioskRFID\bin\Debug\Interop.WMPLib.dll
+D:\_A\kioskRFID\kioskRFID\bin\Debug\mRibbon.dll
+D:\_A\kioskRFID\kioskRFID\bin\Debug\POS.Devices.OPOSPOSPrinter.dll
+D:\_A\kioskRFID\kioskRFID\bin\Debug\PrinterClassDll.dll
+D:\_A\kioskRFID\kioskRFID\bin\Debug\QPrint.dll
+D:\_A\kioskRFID\kioskRFID\bin\Debug\SerialportManager.dll
+D:\_A\kioskRFID\kioskRFID\bin\Debug\Newtonsoft.Json.dll
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\bin\Debug\kioskRFID.exe.config
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\bin\Debug\kioskRFID.exe
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\bin\Debug\kioskRFID.pdb
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\bin\Debug\kioskRFID.xml
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\bin\Debug\Facebook.dll
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\bin\Debug\Newtonsoft.Json.dll
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\ResolveAssemblyReference.cache
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmDialogMsg.resources
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmFbLogin.resources
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmKiosCapture.resources
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmKiosCapture2.resources
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmLoading.resources
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmRegister.resources
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmWaiting.resources
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.Resources.resources
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.vbproj.GenerateResource.Cache
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.exe
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.xml
+D:\_A\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.pdb
+D:\_A\_Other Project\RFIDHERO\kioskRFID\kioskRFID\bin\Debug\kioskRFID.exe.config
+D:\_A\_Other Project\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.exe
+D:\_A\_Other Project\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.xml
+D:\_A\_Other Project\RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.pdb
+D:\_A\_RFIDHERO\kioskRFID\kioskRFID\bin\Debug\kioskRFID.exe.config
+D:\_A\_RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.exe
+D:\_A\_RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.xml
+D:\_A\_RFIDHERO\kioskRFID\kioskRFID\obj\Debug\kioskRFID.pdb
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\bin\Debug\kioskRFID.exe.config
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.exe
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.xml
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.pdb
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\bin\Debug\kioskRFID.exe
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\bin\Debug\kioskRFID.pdb
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\bin\Debug\kioskRFID.xml
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\bin\Debug\Facebook.dll
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\bin\Debug\Newtonsoft.Json.dll
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmDialogMsg.resources
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmFbLogin.resources
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmKiosCapture.resources
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmKiosCapture2.resources
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmLoading.resources
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmRegister.resources
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.frmWaiting.resources
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.Resources.resources
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.vbproj.GenerateResource.Cache
+D:\MyProject\RFIDHERO2014\kioskRFID\kioskRFID\obj\Debug\kioskRFID.vbprojResolveAssemblyReference.cache

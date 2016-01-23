@@ -1,0 +1,15 @@
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\bin\Debug\Kiosk_eBrochure.exe
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\bin\Debug\Kiosk_eBrochure.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\obj\Debug\Kiosk_eBrochure.frmGreeting.resources
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\obj\Debug\Kiosk_eBrochure.Properties.Resources.resources
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\obj\Debug\Kiosk_eBrochure.csproj.GenerateResource.Cache
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\obj\Debug\Kiosk_eBrochure.exe
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\obj\Debug\Kiosk_eBrochure.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\bin\Debug\LinqDB.dll
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\bin\Debug\ParaDB.dll
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\bin\Debug\ParaDB.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\bin\Debug\ParaDB.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\bin\Debug\LinqDB.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\bin\Debug\LinqDB.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\Kiosk_eBrochure\obj\Debug\Kiosk_eBrochure.csprojResolveAssemblyReference.cache

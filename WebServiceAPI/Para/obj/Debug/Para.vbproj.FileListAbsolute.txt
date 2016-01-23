@@ -1,0 +1,17 @@
+D:\MyProject\RFIDHERO2014\Questionaire\Para\bin\Debug\Para.dll
+D:\MyProject\RFIDHERO2014\Questionaire\Para\bin\Debug\Para.pdb
+D:\MyProject\RFIDHERO2014\Questionaire\Para\bin\Debug\Para.xml
+D:\MyProject\RFIDHERO2014\Questionaire\Para\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\RFIDHERO2014\Questionaire\Para\obj\Debug\Para.Resources.resources
+D:\MyProject\RFIDHERO2014\Questionaire\Para\obj\Debug\Para.vbproj.GenerateResource.Cache
+D:\MyProject\RFIDHERO2014\Questionaire\Para\obj\Debug\Para.dll
+D:\MyProject\RFIDHERO2014\Questionaire\Para\obj\Debug\Para.xml
+D:\MyProject\RFIDHERO2014\Questionaire\Para\obj\Debug\Para.pdb
+D:\MyProject\RFIDHERO2014\WebServiceAPI\Para\bin\Debug\Para.dll
+D:\MyProject\RFIDHERO2014\WebServiceAPI\Para\bin\Debug\Para.pdb
+D:\MyProject\RFIDHERO2014\WebServiceAPI\Para\bin\Debug\Para.xml
+D:\MyProject\RFIDHERO2014\WebServiceAPI\Para\obj\Debug\Para.Resources.resources
+D:\MyProject\RFIDHERO2014\WebServiceAPI\Para\obj\Debug\Para.vbproj.GenerateResource.Cache
+D:\MyProject\RFIDHERO2014\WebServiceAPI\Para\obj\Debug\Para.dll
+D:\MyProject\RFIDHERO2014\WebServiceAPI\Para\obj\Debug\Para.xml
+D:\MyProject\RFIDHERO2014\WebServiceAPI\Para\obj\Debug\Para.pdb

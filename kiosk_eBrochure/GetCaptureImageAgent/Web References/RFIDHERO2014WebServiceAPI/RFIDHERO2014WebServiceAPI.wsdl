@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SaveImageFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PersonalInfoID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileByte" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileByteNoLogo" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveImageFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SaveImageFileResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetImageFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PersonalInfoID" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetImageFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetImageFileResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNewPersonalImageData">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNewPersonalImageDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNewPersonalImageDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateFacebookStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PersonalInfoID" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateFacebookStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateFacebookStatusResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPersonalImageForRecognition">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPersonalImageForRecognitionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPersonalImageForRecognitionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateEBrochureStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PersonalInfoID" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateEBrochureStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateEBrochureStatusResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SaveImageFileSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveImageFile" />
+  </wsdl:message>
+  <wsdl:message name="SaveImageFileSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveImageFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetImageFileSoapIn">
+    <wsdl:part name="parameters" element="tns:GetImageFile" />
+  </wsdl:message>
+  <wsdl:message name="GetImageFileSoapOut">
+    <wsdl:part name="parameters" element="tns:GetImageFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNewPersonalImageDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNewPersonalImageData" />
+  </wsdl:message>
+  <wsdl:message name="GetNewPersonalImageDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNewPersonalImageDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFacebookStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateFacebookStatus" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFacebookStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateFacebookStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPersonalImageForRecognitionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPersonalImageForRecognition" />
+  </wsdl:message>
+  <wsdl:message name="GetPersonalImageForRecognitionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPersonalImageForRecognitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateEBrochureStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateEBrochureStatus" />
+  </wsdl:message>
+  <wsdl:message name="UpdateEBrochureStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateEBrochureStatusResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RFIDHERO2014WebServiceAPISoap">
+    <wsdl:operation name="SaveImageFile">
+      <wsdl:input message="tns:SaveImageFileSoapIn" />
+      <wsdl:output message="tns:SaveImageFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetImageFile">
+      <wsdl:input message="tns:GetImageFileSoapIn" />
+      <wsdl:output message="tns:GetImageFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewPersonalImageData">
+      <wsdl:input message="tns:GetNewPersonalImageDataSoapIn" />
+      <wsdl:output message="tns:GetNewPersonalImageDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFacebookStatus">
+      <wsdl:input message="tns:UpdateFacebookStatusSoapIn" />
+      <wsdl:output message="tns:UpdateFacebookStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPersonalImageForRecognition">
+      <wsdl:input message="tns:GetPersonalImageForRecognitionSoapIn" />
+      <wsdl:output message="tns:GetPersonalImageForRecognitionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEBrochureStatus">
+      <wsdl:input message="tns:UpdateEBrochureStatusSoapIn" />
+      <wsdl:output message="tns:UpdateEBrochureStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RFIDHERO2014WebServiceAPISoap" type="tns:RFIDHERO2014WebServiceAPISoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SaveImageFile">
+      <soap:operation soapAction="http://tempuri.org/SaveImageFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetImageFile">
+      <soap:operation soapAction="http://tempuri.org/GetImageFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewPersonalImageData">
+      <soap:operation soapAction="http://tempuri.org/GetNewPersonalImageData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFacebookStatus">
+      <soap:operation soapAction="http://tempuri.org/UpdateFacebookStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPersonalImageForRecognition">
+      <soap:operation soapAction="http://tempuri.org/GetPersonalImageForRecognition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEBrochureStatus">
+      <soap:operation soapAction="http://tempuri.org/UpdateEBrochureStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RFIDHERO2014WebServiceAPISoap12" type="tns:RFIDHERO2014WebServiceAPISoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SaveImageFile">
+      <soap12:operation soapAction="http://tempuri.org/SaveImageFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetImageFile">
+      <soap12:operation soapAction="http://tempuri.org/GetImageFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewPersonalImageData">
+      <soap12:operation soapAction="http://tempuri.org/GetNewPersonalImageData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFacebookStatus">
+      <soap12:operation soapAction="http://tempuri.org/UpdateFacebookStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPersonalImageForRecognition">
+      <soap12:operation soapAction="http://tempuri.org/GetPersonalImageForRecognition" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEBrochureStatus">
+      <soap12:operation soapAction="http://tempuri.org/UpdateEBrochureStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RFIDHERO2014WebServiceAPI">
+    <wsdl:port name="RFIDHERO2014WebServiceAPISoap" binding="tns:RFIDHERO2014WebServiceAPISoap">
+      <soap:address location="http://192.168.1.102/RFIDHERO2014WebServiceAPI/RFIDHERO2014WebServiceAPI.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RFIDHERO2014WebServiceAPISoap12" binding="tns:RFIDHERO2014WebServiceAPISoap12">
+      <soap12:address location="http://192.168.1.102/RFIDHERO2014WebServiceAPI/RFIDHERO2014WebServiceAPI.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,10 @@
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\GetCaptureImageAgent\bin\Debug\GetCaptureImageAgent.exe
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\GetCaptureImageAgent\bin\Debug\GetCaptureImageAgent.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\GetCaptureImageAgent\bin\Debug\GetCaptureImageAgent.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\GetCaptureImageAgent\obj\Debug\GetCaptureImageAgent.frmGetCaptureImageAgent.resources
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\GetCaptureImageAgent\obj\Debug\GetCaptureImageAgent.Resources.resources
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\GetCaptureImageAgent\obj\Debug\GetCaptureImageAgent.vbproj.GenerateResource.Cache
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\GetCaptureImageAgent\obj\Debug\GetCaptureImageAgent.exe
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\GetCaptureImageAgent\obj\Debug\GetCaptureImageAgent.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\GetCaptureImageAgent\obj\Debug\GetCaptureImageAgent.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\GetCaptureImageAgent\bin\Debug\GetCaptureImageAgent.exe.config

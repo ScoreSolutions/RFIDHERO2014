@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ContentMasterPage.master.cs" Inherits="Template_ContentMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>REGISTRATION FORM</title>
+    <script type="text/javascript" language="JavaScript" src="../Template/JScript.js"></script>
+    <script type="text/javascript" src="../Template/datetimepicker_css.js"></script>
+    <link id="MyStyleSheet" href="../Template/StyleSheet.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/JavaScript" language="JavaScript">
+        function pageLoad() {
+            var manager = Sys.WebForms.PageRequestManager.getInstance();
+            manager.add_endRequest(endRequest);
+            manager.add_beginRequest(OnBeginRequest);
+        }
+        function OnBeginRequest(sender, args) {
+            $get('pageContent').className = 'onProgress';
+        }
+        function endRequest(sender, args) {
+            $get('pageContent').className = '';
+        }
+
+        function SaveTransLog(TransDesc) {
+            AjaxScript.SaveTransLog(TransDesc);
+        }
+    </script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <center>
+    
+    <table width="900px" border="0" cellpadding="0" cellspacing="0" id="pageContent" align="center" >
+        <tr>
+            <td style="width: 100%;" >
+                <form id="form1" runat="server" enctype="multipart/form-data">
+                <cc1:ToolkitScriptManager ID="ScriptManager1" runat="server">
+                    <Services>
+                    <asp:ServiceReference Path="~/Template/AjaxScript.asmx" />
+                    </Services>
+                </cc1:ToolkitScriptManager>
+                <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                    <ContentTemplate>
+                        <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" >
+                            <tr>
+                                <td colspan="2" class="Header" align="right"  >
+                                    <%--<br />
+                                    <br />
+                                    <br />--%>
+                                    <table width="100%">
+                                        <tr>
+                                            <td align="left" valign="bottom">
+                                                <img src="../Image/rfidhero2014.png" width="220px" height="150px" />
+                                            </td>
+                                            <td class="CssHead" align="center">
+                                            แบบฟอร์มลงทะเบียนผู้เข้าชมงาน The Return of RFID HERO 2014<br />The Return of RFID HERO 2014 Visitor Registration Form</td>
+                                            <td align="right"  valign="bottom">
+                                                <img src="../Image/logo.png" width="150px" height="150px"  />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                </td>
+                            </tr>
+                            <%--<tr style="background: #000066; height:24px">
+                                <td align="left" colspan="2" >
+                                    <asp:Label ID="lblMenu" runat="server" Text=""></asp:Label>
+                                </td>
+                            </tr>--%>
+                            <tr>
+                                <td colspan="2" >
+                                  <%--  <div id="divContent" style="height:500px; overflow:scroll; overflow-x:hidden"  >--%>
+                                        <table width="100%" height="560px"  style="border: 2px solid; margin-top:100px;">
+                                            <tr valign="top">
+                                                <td>
+                                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+                                                    </asp:ContentPlaceHolder>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                   <%-- </div>--%>
+                                </td>
+                            </tr>
+                        </table>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                <center>
+                <div style="margin:0 0 0 0;">
+                <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1" DisplayAfter="0">
+                    <ProgressTemplate>
+                        <div id="IMGDIV" align="center" valign="middle" runat="server" style="position: absolute; 
+                            left: 0; top: 0; width: 100%; height: 100%; visibility: visible; vertical-align: middle;
+                            border-style: inset;  background-color:Transparent;
+                            z-index: 20000">
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <asp:Image ID="Image1" runat="server" ImageUrl="../Image/progress.gif" CssClass="" />
+                        </div>
+                    </ProgressTemplate>
+                </asp:UpdateProgress>
+                </div>
+                </center>
+                </form>
+            </td>
+        </tr>
+    </table>
+    </center>    
+</body>
+</html>

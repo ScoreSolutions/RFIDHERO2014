@@ -1,0 +1,16 @@
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\bin\Debug\SendEmailEBrochure.exe
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\bin\Debug\SendEmailEBrochure.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\bin\Debug\SendEmailEBrochure.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\bin\Debug\LinqDB.dll
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\bin\Debug\ParaDB.dll
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\bin\Debug\LinqDB.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\bin\Debug\LinqDB.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\bin\Debug\ParaDB.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\bin\Debug\ParaDB.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\obj\Debug\SendEmailEBrochure.vbprojResolveAssemblyReference.cache
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\obj\Debug\SendEmailEBrochure.frmSendEmailEBrochureAgent.resources
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\obj\Debug\SendEmailEBrochure.Resources.resources
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\obj\Debug\SendEmailEBrochure.vbproj.GenerateResource.Cache
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\obj\Debug\SendEmailEBrochure.exe
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\obj\Debug\SendEmailEBrochure.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\SendEmailEBrochure\obj\Debug\SendEmailEBrochure.pdb

@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6AC93D3E-9258-464B-856B-795006009F4F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>kioskRFID.My.MyApplication</StartupObject>
+    <RootNamespace>kioskRFID</RootNamespace>
+    <AssemblyName>kioskRFID</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>kioskRFID.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>kioskRFID.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AMS.Profile, Version=2.0.4374.32330, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AMS.Profile.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.ShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AxInterop.ShockwaveFlashObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AxInterop.WMPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Barcode128, Version=1.0.2993.20314, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\_GS1\kioskRFID\kioskRFID\bin\Debug\Barcode128.dll</HintPath>
+    </Reference>
+    <Reference Include="Code.Card, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Code.Card.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeVendor.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CodeVendor.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="DirectShowLib-2005, Version=2.0.0.0, Culture=neutral, PublicKeyToken=67e7b740cdfc2d3f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DirectShowLib-2005.dll</HintPath>
+    </Reference>
+    <Reference Include="DirectX.Capture, Version=1.0.4398.28155, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DirectX.Capture.dll</HintPath>
+    </Reference>
+    <Reference Include="DShowNET, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DShowNET.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.PrinterClassDll, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\ReadMifate\ReadMifate\bin\Debug\Interop.PrinterClassDll.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\ReadMifate\ReadMifate\bin\Debug\Interop.WMPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="mRibbon, Version=1.0.2853.35963, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\ReadMifate\ReadMifate\bin\Debug\mRibbon.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="POS.Devices.OPOSPOSPrinter, Version=1.13.0.0, Culture=neutral, PublicKeyToken=25db91e28cd23c98, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\ReadMifate\ReadMifate\bin\Debug\POS.Devices.OPOSPOSPrinter.dll</HintPath>
+    </Reference>
+    <Reference Include="PrinterClassDll, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\ReadMifate\ReadMifate\bin\Debug\PrinterClassDll.dll</HintPath>
+    </Reference>
+    <Reference Include="QPrint, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\ReadMifate\ReadMifate\bin\Debug\QPrint.dll</HintPath>
+    </Reference>
+    <Reference Include="SerialportManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\ReadMifate\ReadMifate\bin\Debug\SerialportManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WebCam_Capture, Version=1.0.2395.24959, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WebCam_Capture.dll</HintPath>
+    </Reference>
+    <Reference Include="Wolf Software.Library NET, Version=1.0.1005.2008, Culture=neutral, PublicKeyToken=3b6031189398578f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\_GS1\kioskRFID\kioskRFID\bin\Debug\Wolf Software.Library NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\FacebookUtilities.vb" />
+    <Compile Include="Dialog\frmDialogMsg.Designer.vb">
+      <DependentUpon>frmDialogMsg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\frmDialogMsg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IniReader.vb" />
+    <Compile Include="Main\frmFbLogin.Designer.vb">
+      <DependentUpon>frmFbLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmFbLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmKiosCapture.Designer.vb">
+      <DependentUpon>frmKiosCapture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmKiosCapture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmKiosCapture2.Designer.vb">
+      <DependentUpon>frmKiosCapture2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmKiosCapture2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmLoading.Designer.vb">
+      <DependentUpon>frmLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmRegister.Designer.vb">
+      <DependentUpon>frmRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmWaiting.Designer.vb">
+      <DependentUpon>frmWaiting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmWaiting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Web References\RFIDHERO2014WebServiceAPI\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WebCam.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dialog\frmDialogMsg.resx">
+      <DependentUpon>frmDialogMsg.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmFbLogin.resx">
+      <DependentUpon>frmFbLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmKiosCapture.resx">
+      <DependentUpon>frmKiosCapture.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmKiosCapture2.resx">
+      <DependentUpon>frmKiosCapture2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmLoading.resx">
+      <DependentUpon>frmLoading.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmRegister.resx">
+      <DependentUpon>frmRegister.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmWaiting.resx">
+      <DependentUpon>frmWaiting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\RFIDHERO2014WebServiceAPI\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\RFIDHERO2014WebServiceAPI\RFIDHERO2014WebServiceAPI.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Alert popup-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\BG-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\BG-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\capture-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Clear btn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\exit btn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\num0-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\num1-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\num2-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\num3-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\num4-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\num5-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\num6-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\num7-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\num8-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\num9-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\OK btn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\OK share btn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Recapture btn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\RFID Logo capture page-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\RFID Logo-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\BG-04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Badge RFID hero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Badge RFID hero resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\close.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\BG-05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="images\Loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss rfid logo-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://192.168.1.102/RFIDHERO2014WebServiceAPI/RFIDHERO2014WebServiceAPI.asmx%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\RFIDHERO2014WebServiceAPI\</RelPath>
+      <UpdateFromURL>http://192.168.1.102/RFIDHERO2014WebServiceAPI/RFIDHERO2014WebServiceAPI.asmx%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>kioskRFID_RFIDHERO2014WebServiceAPI_RFIDHERO2014WebServiceAPI</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\new-Badge RFID hero resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\new-RFID hero resize.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

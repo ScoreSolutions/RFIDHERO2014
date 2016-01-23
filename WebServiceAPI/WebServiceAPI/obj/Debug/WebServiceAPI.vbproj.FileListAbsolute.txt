@@ -1,0 +1,16 @@
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\bin\WebServiceAPI.dll.config
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\bin\WebServiceAPI.dll
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\bin\WebServiceAPI.pdb
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\bin\WebServiceAPI.xml
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\bin\Linq.dll
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\bin\Para.dll
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\bin\Linq.pdb
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\bin\Linq.xml
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\bin\Para.pdb
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\bin\Para.xml
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\obj\Debug\WebServiceAPI.vbprojResolveAssemblyReference.cache
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\obj\Debug\WebServiceAPI.Resources.resources
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\obj\Debug\WebServiceAPI.vbproj.GenerateResource.Cache
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\obj\Debug\WebServiceAPI.dll
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\obj\Debug\WebServiceAPI.xml
+D:\MyProject\RFIDHERO2014\WebServiceAPI\WebServiceAPI\obj\Debug\WebServiceAPI.pdb

@@ -1,0 +1,12 @@
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\obj\Debug\LinqDB.Resources.resources
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\obj\Debug\LinqDB.vbproj.GenerateResource.Cache
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\bin\Debug\LinqDB.dll
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\bin\Debug\LinqDB.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\bin\Debug\LinqDB.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\bin\Debug\ParaDB.dll
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\bin\Debug\ParaDB.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\bin\Debug\ParaDB.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\obj\Debug\LinqDB.dll
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\obj\Debug\LinqDB.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\obj\Debug\LinqDB.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\LinqDB\obj\Debug\LinqDB.vbprojResolveAssemblyReference.cache

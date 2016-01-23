@@ -1,0 +1,8 @@
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\ParaDB\obj\Debug\ParaDB.Resources.resources
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\ParaDB\obj\Debug\ParaDB.vbproj.GenerateResource.Cache
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\ParaDB\bin\Debug\ParaDB.dll
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\ParaDB\bin\Debug\ParaDB.pdb
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\ParaDB\bin\Debug\ParaDB.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\ParaDB\obj\Debug\ParaDB.dll
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\ParaDB\obj\Debug\ParaDB.xml
+D:\MyProject\RFIDHERO2014\kiosk_eBrochure\ParaDB\obj\Debug\ParaDB.pdb

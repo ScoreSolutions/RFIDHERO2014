@@ -1,0 +1,10 @@
+D:\MyProject\RFIDHERO2014\SendMailBlaze\SendMailBlaze\bin\Debug\SendMailBlaze.exe.config
+D:\MyProject\RFIDHERO2014\SendMailBlaze\SendMailBlaze\bin\Debug\SendMailBlaze.exe
+D:\MyProject\RFIDHERO2014\SendMailBlaze\SendMailBlaze\bin\Debug\SendMailBlaze.pdb
+D:\MyProject\RFIDHERO2014\SendMailBlaze\SendMailBlaze\bin\Debug\SendMailBlaze.xml
+D:\MyProject\RFIDHERO2014\SendMailBlaze\SendMailBlaze\obj\Debug\SendMailBlaze.frmSendMailBlaze.resources
+D:\MyProject\RFIDHERO2014\SendMailBlaze\SendMailBlaze\obj\Debug\SendMailBlaze.Resources.resources
+D:\MyProject\RFIDHERO2014\SendMailBlaze\SendMailBlaze\obj\Debug\SendMailBlaze.vbproj.GenerateResource.Cache
+D:\MyProject\RFIDHERO2014\SendMailBlaze\SendMailBlaze\obj\Debug\SendMailBlaze.exe
+D:\MyProject\RFIDHERO2014\SendMailBlaze\SendMailBlaze\obj\Debug\SendMailBlaze.xml
+D:\MyProject\RFIDHERO2014\SendMailBlaze\SendMailBlaze\obj\Debug\SendMailBlaze.pdb

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GetCaptureImageAgent
+</name>
+</assembly>
+<members>
+<member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.#ctor">
+	<remarks/>
+</member><member name="E:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.SaveImageFileCompleted">
+	<remarks/>
+</member><member name="E:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetImageFileCompleted">
+	<remarks/>
+</member><member name="E:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetNewPersonalImageDataCompleted">
+	<remarks/>
+</member><member name="E:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.UpdateFacebookStatusCompleted">
+	<remarks/>
+</member><member name="E:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetPersonalImageForRecognitionCompleted">
+	<remarks/>
+</member><member name="E:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.UpdateEBrochureStatusCompleted">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.SaveImageFile(System.Int64,System.Byte[],System.Byte[])">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.SaveImageFileAsync(System.Int64,System.Byte[],System.Byte[])">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.SaveImageFileAsync(System.Int64,System.Byte[],System.Byte[],System.Object)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetImageFile(System.Int64)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetImageFileAsync(System.Int64)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetImageFileAsync(System.Int64,System.Object)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetNewPersonalImageData">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetNewPersonalImageDataAsync">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetNewPersonalImageDataAsync(System.Object)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.UpdateFacebookStatus(System.Int64)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.UpdateFacebookStatusAsync(System.Int64)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.UpdateFacebookStatusAsync(System.Int64,System.Object)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetPersonalImageForRecognition">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetPersonalImageForRecognitionAsync">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.GetPersonalImageForRecognitionAsync(System.Object)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.UpdateEBrochureStatus(System.Int64)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.UpdateEBrochureStatusAsync(System.Int64)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.UpdateEBrochureStatusAsync(System.Int64,System.Object)">
+	<remarks/>
+</member><member name="M:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.RFIDHERO2014WebServiceAPI">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.SaveImageFileCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.SaveImageFileCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.SaveImageFileCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.GetImageFileCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.GetImageFileCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.GetImageFileCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.GetNewPersonalImageDataCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.GetNewPersonalImageDataCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.GetNewPersonalImageDataCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.UpdateFacebookStatusCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.UpdateFacebookStatusCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.UpdateFacebookStatusCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.GetPersonalImageForRecognitionCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.GetPersonalImageForRecognitionCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.GetPersonalImageForRecognitionCompletedEventArgs">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.UpdateEBrochureStatusCompletedEventHandler">
+	<remarks/>
+</member><member name="P:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.UpdateEBrochureStatusCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:GetCaptureImageAgent.RFIDHERO2014WebServiceAPI.UpdateEBrochureStatusCompletedEventArgs">
+	<remarks/>
+</member><member name="P:GetCaptureImageAgent.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GetCaptureImageAgent.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:GetCaptureImageAgent.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,7 @@
+#include "resource.h"
+
+IDR_MYMENU MENU
+BEGIN
+    MENUITEM "&Open File...", ID_OPEN_FILE
+    MENUITEM "E&xit", ID_EXIT
+END
